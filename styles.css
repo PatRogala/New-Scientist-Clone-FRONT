@@ -140,14 +140,27 @@ li.font-blue a {
   height: 50px;
 }
 
+.content strong {
+  margin-right: 10px;
+}
+
+.content p {
+  margin: 15px 0;
+}
+
+.content img {
+  max-width: 100%;
+}
+
+.content p span {
+  color: #00b3e5;
+  font-weight: bold;
+}
+
 .article h1 {
   font-size: 3em;
+  margin-bottom: 10px;
 }
-
-.aside {
-
-}
-
 
 .aside ul {
   display: flex;
@@ -205,4 +218,42 @@ li.aside-articles > a {
 li.aside-articles a:hover {
   background: none;
   color: #00b3e5;
+}
+
+figcaption.caption {
+  font-weight: bold;
+  font-size: 0.7em;
+}
+
+figcaption.source {
+  font-size: 0.8em;
+}
+
+.article-text {
+  font-size: 1.2em;
+  color:#727272;
+}
+
+.read-more p {
+  font-size: 1.1em;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  padding: 5px 8px;
+}
+
+.read-more a {
+  text-decoration: none;
+  color: #00b3e5;
+}
+
+.article a {
+  color: #00b3e5;
+  text-decoration: none;
+}
+
+.smaller {
+  font-size: 0.9em;
+}
+.italic {
+  font-style: italic;
 }
