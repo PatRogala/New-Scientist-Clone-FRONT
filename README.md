@@ -1,2 +1,2 @@
-# New-Scientist-Clone-FRONT
-A simple new scientist article frontend clone for Odin Project
+# New Scientist Article Clone (FRONTEND ONLY)
+[Project info](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/html-and-css/lessons/positioning-and-floating-elements)
