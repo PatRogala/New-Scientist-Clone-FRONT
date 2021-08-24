@@ -314,8 +314,11 @@ p.more-topics a:hover {
 }
 
 .footer ul li {
+  display: grid;
+  grid-template-columns: 1fr;
   border-right: 1px solid black;
   padding: 0 10px;
+  text-align: center;
 }
 .footer ul a {
   text-decoration: none;
@@ -389,5 +392,8 @@ p.more-topics a:hover {
     justify-content: space-between;
     margin-bottom: 0;
     padding: 10px 0;
+  }
+  button[type="submit"] {
+    margin-top: 20px;
   }
 }
